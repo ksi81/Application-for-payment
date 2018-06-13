@@ -1,34 +1,37 @@
-
-.dataTables_filter label  {
+.dataTables_filter label {
     background: pink;
     padding: 8px;
     color: #ffffff;
     text-transform: uppercase;
 }
-.dataTables_length label{
+
+.dataTables_length label {
     background: pink;
     /* padding: 8px; */
     color: #ffffff;
     text-transform: uppercase;
 }
+
 /* 
  .dataTables_filter label input {
      margin-left: 10px;  } */
+
 /* .dataTables_wrapper .ui-toolbar {
     padding: 20px;
 }  */
- #personal.dataTable th {
+
+#personal.dataTable th {
     color: pink;
     font-weight: 700;
     padding-top: 5px;
     padding-bottom: 5px;
     border: 1px #b7b7b7 solid;
-    margin: 0; */
-} 
+    margin: 0;
+    */
+}
 
 .dataTables_wrapper {
     font-weight: normal;
-  
     /* padding-bottom: 30px; */
 }
 
@@ -39,8 +42,38 @@
 }
 
 .uk-offcanvas-bar {
-  
     /* background: pink; */
-   
     color: aqua;
 }
+
+.yuraBtn {
+    max-width: 33;
+    height: 70px;
+    border-radius: 4px;
+    padding: 5px;
+    font-size: 30px;
+    border: 1px solid black;
+    background-color: beige;
+    box-shadow: 0 0 4px 2px #fff;
+    /* border-radius: 2px soled red; */
+    /* margin: 0 10px 18px 0; */
+}
+.newMy {
+    border-radius: 4px;
+
+}
+.one {
+    border-radius: 8px;
+    padding: 5px;
+    font-size: 30px;
+    border: 1px solid #cbcbcb;
+background-color: pink;
+}   
+
+.two {
+    border-radius: 4px;
+    /* padding: 5px;
+    font-size: 30px; */
+    border: 1px solid #cbcbcb;
+background-color: pink;
+}   

@@ -27,55 +27,132 @@
 </head>
 
 <body>
-        <a href="#offcanvas-slide" class="uk-button uk-button-default" uk-toggle>МЕНЮ</a>
+    <a href="#offcanvas-slide" class="uk-button uk-button-default" uk-toggle>МЕНЮ</a>
 
-        <div id="offcanvas-slide" uk-offcanvas>
-            <div class="uk-offcanvas-bar">
-        
-                <ul class="uk-nav uk-nav-default">
-                        <li class="uk-nav-header">МЕНЮ ЗАЯВОК</li>
-                    <!-- <li class="uk-active"><a href="#">Active</a></li> -->
-                    <li><a href="index2.html">Стоврити заявку</a></li>
-                    <li><a href="#">Шаблони заявок</a></li>
-                    <li><a href="#">Архів заявок</a></li>
-                    <li class="uk-nav-header">МЕНЮ ДОГОВОРІВ</li>
-                    <li><a href="#">Створити Договір</a></li>
-                    <li><a href="#">Створити додаток</a></li>
-                    <li class="uk-nav-divider"></li>
-                    <li><a href="#">Архів договорів</a></li>
-                    <li><a href="#">Архів додатків</a></li>
-                    <!-- <li><a href="#">Item</a></li> -->
-                </ul>
-        
-            </div>
+    <div id="offcanvas-slide" uk-offcanvas>
+        <div class="uk-offcanvas-bar">
+
+            <ul class="uk-nav uk-nav-default">
+                <li class="uk-nav-header">МЕНЮ ЗАЯВОК</li>
+                <!-- <li class="uk-active"><a href="#">Active</a></li> -->
+                <li>
+                    <a href="index2.html">Стоврити заявку</a>
+                </li>
+                <li>
+                    <a href="#">Шаблони заявок</a>
+                </li>
+                <li>
+                    <a href="#">Архів заявок</a>
+                </li>
+                <li class="uk-nav-header">МЕНЮ ДОГОВОРІВ</li>
+                <li>
+                    <a href="#">Створити Договір</a>
+                </li>
+                <li>
+                    <a href="#">Створити додаток</a>
+                </li>
+                <li class="uk-nav-divider"></li>
+                <li>
+                    <a href="#">Архів договорів</a>
+                </li>
+                <li>
+                    <a href="#">Архів додатків</a>
+                </li>
+                <!-- <li><a href="#">Item</a></li> -->
+            </ul>
+
         </div>
+    </div>
 
     <div class="uk-container">
 
-            <article class="uk-comment uk-text-right">
-                    <header class="uk-comment-header uk-grid-medium uk-flex-middle" uk-grid>
-                        <div class="uk-width-auto">
-                            <img class="uk-comment-avatar" src="../docs/images/avatar.jpg" width="80" height="80" alt="">
+        <article class="uk-comment uk-text-right">
+            <header class="uk-comment-header uk-grid-medium uk-flex-middle" uk-grid>
+                <div class="uk-width-auto">
+                    <img class="uk-comment-avatar" src="../docs/images/avatar.jpg" width="80" height="80" alt="">
+                </div>
+                <div class="uk-width-expand">
+                    <h4 class="uk-comment-title uk-margin-remove">
+                        <a class="uk-link-reset" href="#">Author</a>
+                    </h4>
+                    <ul class="uk-comment-meta uk-subnav uk-subnav-divider uk-margin-remove-top">
+
+                </div>
+            </header>
+
+        </article>
+        <!-- <div class="yuraBtn">
+                <button class="uk-button uk-button-default uk-button-large" type="button">З А Я В К И</button>
+                <div class=" newMy  uk-button-link uk-button-link" uk-icon="icon: plus; ratio: 3.5"></div>
+            </div>
+        </div> -->
+        <div class="uk-container uk-text-center">
+<div class="one uk-inline">
+    <span class="uk-button-link ">З А Я В К И</span>
+    <div class="two uk-button-link" uk-icon="icon: plus; ratio: 3.5"></div>
+</div>
+<div class="one uk-inline">
+        <span class="uk-button-link ">Д О Г О В О Р А</span>
+        <div class="two uk-button-link" uk-icon="icon: plus; ratio: 3.5"></div>
+    </div>
+</div>
+<!-- //////////////////// -->
+
+<span>new varian buttons</span>
+<div class="uk-container uk-text-center">
+        <div class="uk-button-group">
+                <button class="uk-button uk-button-default">З А Я В К И</button>
+                <div class="uk-inline">
+                    <button class="uk-button uk-button-default" type="button"><span uk-icon="icon:  triangle-down"></span></button>
+                    <div uk-dropdown="mode: click; boundary: ! .uk-button-group; boundary-align: true;">
+                        <ul class="uk-nav uk-dropdown-nav">
+                            <li class="uk-active"><a href="#">Active</a></li>
+                            <li><a href="#">Item</a></li>
+                            <li class="uk-nav-header">Header</li>
+                            <li><a href="#">Item</a></li>
+                            <li><a href="#">Item</a></li>
+                            <li class="uk-nav-divider"></li>
+                            <li><a href="#">Item</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="uk-button-group">
+                    <button class="uk-button uk-button-default">Д О Г О В О Р А</button>
+                    <div class="uk-inline">
+                        <button class="uk-button uk-button-default" type="button"><span uk-icon="icon:  triangle-down"></span></button>
+                        <div uk-dropdown="mode: click; boundary: ! .uk-button-group; boundary-align: true;">
+                            <ul class="uk-nav uk-dropdown-nav">
+                                <li class="uk-active"><a href="#">Active</a></li>
+                                <li><a href="#">Item</a></li>
+                                <li class="uk-nav-header">Header</li>
+                                <li><a href="#">Item</a></li>
+                                <li><a href="#">Item</a></li>
+                                <li class="uk-nav-divider"></li>
+                                <li><a href="#">Item</a></li>
+                            </ul>
                         </div>
-                        <div class="uk-width-expand">
-                            <h4 class="uk-comment-title uk-margin-remove"><a class="uk-link-reset" href="#">Author</a></h4>
-                            <ul class="uk-comment-meta uk-subnav uk-subnav-divider uk-margin-remove-top">
-                          
-                        </div>
-                    </header>
-                    
-                </article>
+                    </div>
+                </div>
+
+    </div>
+    
 
 
         <div class="uk-child-width-1-12@s" uk-grid>
             <div>
-                    <h1 class="uk-heading-line uk-text-center"><span>Активні заявки</span></h1>
-                    <div class="uk-comment-body">
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-                        </div>
-        
-                
-               
+                <h1 class="uk-heading-line uk-text-center">
+                    <span>Активні заявки</span>
+                </h1>
+                <div class="uk-comment-body">
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+                        et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et
+                        ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                </div>
+
+
+
             </div>
         </div>
         <!-- <div class="uk-margin uk-text-right">
@@ -84,8 +161,8 @@
                     <input class="uk-search-input" type="search" placeholder="Search...">
                 </form>
             </div> -->
-            
-            <!-- <div class="uk-margin uk-text-right">
+
+        <!-- <div class="uk-margin uk-text-right">
                 <form class="uk-search uk-search-default uk-text-right">
                     <span class="uk-search-icon-flip" uk-search-icon></span>
                     <input class="uk-search-input" type="search" placeholder="Search...">
@@ -110,7 +187,9 @@
                     <td>ЧП Ігорьок</td>
                     <td>6100</td>
                     <td>2011/04/25</td>
-                    <td><span class="uk-label uk-label-success">Success</span></td>
+                    <td>
+                        <span class="uk-label uk-label-success">Success</span>
+                    </td>
                     <!-- <td><ul class="uk-iconnav">
                             <li><a href="#" uk-icon="icon: plus"></a></li>
                             <li><a href="#" uk-icon="icon: file-edit"></a></li>
@@ -118,82 +197,86 @@
                             <li><a href="#" uk-icon="icon: trash"></a></li>
                         </ul></td>
                 </tr> -->
-                <tr>
-                    <td>2011/04/25</td>
-                    <td>Купівля принтерів</td>
-                    <td>ЧП Санбок</td>
-                    <td>600</td>
-                    <td>2011/03/25</td>
-                    <td><span class="uk-label uk-label-warning">Warning</span></td>
-                </tr>
-                <tr>
-                    <td>2011/04/25</td>
-                    <td>Купівля Тесли</td>
-                    <td>ЧП Ігорьок</td>
-                    <td>61000000</td>
-                    <td>2018/04/25</td>
-                    <td><span class="uk-label uk-label-danger">Danger</span></td>
-                </tr>
-                <tr>
-                    <td>2011/04/25</td>
-                    <td>Купівля товарів</td>
-                    <td>ЧП Ігорьок</td>
-                    <td>6100</td>
-                    <td>2011/04/25</td>
-                    <td>В обробці</td>
-                </tr>
-                <tr>
-                    <td>2011/04/25</td>
-                    <td>Купівля товарів</td>
-                    <td>ЧП Ігорьок</td>
-                    <td>6100</td>
-                    <td>2011/04/25</td>
-                    <td>В обробці</td>
-                </tr>
-                <tr>
-                    <td>Brielle Williamson</td>
-                    <td>Integration Specialist</td>
-                    <td>New York</td>
-                    <td>61</td>
-                    <td>2012/12/02</td>
-                    <td>$372,000</td>
-                </tr>
-                <tr>
-                    <td>Herrod Chandler</td>
-                    <td>Sales Assistant</td>
-                    <td>San Francisco</td>
-                    <td>59</td>
-                    <td>2012/08/06</td>
-                    <td>$137,500</td>
-                </tr>
-                <tr>
-                    <td>Fiona Green</td>
-                    <td>Chief Operating Officer (COO)</td>
-                    <td>San Francisco</td>
-                    <td>48</td>
-                    <td>2010/03/11</td>
-                    <td>$850,000</td>
-                </tr>
-                <tr>
-                    <td>Shou Itou</td>
-                    <td>Regional Marketing</td>
-                    <td>Tokyo</td>
-                    <td>20</td>
-                    <td>2011/08/14</td>
-                    <td>$163,000</td>
-                </tr>
+                    <tr>
+                        <td>2011/04/25</td>
+                        <td>Купівля принтерів</td>
+                        <td>ЧП Санбок</td>
+                        <td>600</td>
+                        <td>2011/03/25</td>
+                        <td>
+                            <span class="uk-label uk-label-warning">Warning</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2011/04/25</td>
+                        <td>Купівля Тесли</td>
+                        <td>ЧП Ігорьок</td>
+                        <td>61000000</td>
+                        <td>2018/04/25</td>
+                        <td>
+                            <span class="uk-label uk-label-danger">Danger</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2011/04/25</td>
+                        <td>Купівля товарів</td>
+                        <td>ЧП Ігорьок</td>
+                        <td>6100</td>
+                        <td>2011/04/25</td>
+                        <td>В обробці</td>
+                    </tr>
+                    <tr>
+                        <td>2011/04/25</td>
+                        <td>Купівля товарів</td>
+                        <td>ЧП Ігорьок</td>
+                        <td>6100</td>
+                        <td>2011/04/25</td>
+                        <td>В обробці</td>
+                    </tr>
+                    <tr>
+                        <td>Brielle Williamson</td>
+                        <td>Integration Specialist</td>
+                        <td>New York</td>
+                        <td>61</td>
+                        <td>2012/12/02</td>
+                        <td>$372,000</td>
+                    </tr>
+                    <tr>
+                        <td>Herrod Chandler</td>
+                        <td>Sales Assistant</td>
+                        <td>San Francisco</td>
+                        <td>59</td>
+                        <td>2012/08/06</td>
+                        <td>$137,500</td>
+                    </tr>
+                    <tr>
+                        <td>Fiona Green</td>
+                        <td>Chief Operating Officer (COO)</td>
+                        <td>San Francisco</td>
+                        <td>48</td>
+                        <td>2010/03/11</td>
+                        <td>$850,000</td>
+                    </tr>
+                    <tr>
+                        <td>Shou Itou</td>
+                        <td>Regional Marketing</td>
+                        <td>Tokyo</td>
+                        <td>20</td>
+                        <td>2011/08/14</td>
+                        <td>$163,000</td>
+                    </tr>
             </tbody>
-            
+
         </table>
         <div class="uk-container uk-position-bottom-center">
-        <p uk-margin>
+            <p uk-margin>
                 <!-- <button class="uk-button uk-button-default uk-button-large">Large button</button> -->
-                <button class="uk-button uk-button-primary uk-button-large" onclick="window.location.href='index2.html'">Створити Заявку</button>
+                <button class="uk-button uk-button-primary uk-button-large" onclick="window.location.href='index2.html'" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">Створити Заявку</button>
                 <button class="uk-button uk-button-secondary uk-button-large">Архів заявок</button>
             </p>
         </div>
     </div>
-    
+
 </body>
 
 </html>
