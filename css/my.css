@@ -68,6 +68,7 @@
     font-size: 30px;
     border: 1px solid #cbcbcb;
 background-color: pink;
+
 }   
 
 .two {
@@ -75,3 +76,6 @@ background-color: pink;
       border: 1px solid #cbcbcb;
 background-color: pink;
 }   
+.uk-button-link:focus, .uk-button-link:hover {
+    text-decoration: none;
+}

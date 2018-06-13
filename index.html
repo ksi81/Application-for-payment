@@ -87,11 +87,11 @@
             </div>
         </div> -->
         <div class="uk-container uk-text-center">
-<div class="one uk-inline">
+<div class="one uk-inline" uk-scrollspy="cls: uk-animation-slide-top; repeat: true">
     <span class="uk-button-link ">З А Я В К И</span>
     <div class="two uk-button-link" uk-icon="icon: plus; ratio: 3"onclick="window.location.href='index2.html'" ></div>
 </div>
-<div class="one uk-inline">
+<div class="one uk-inline" uk-scrollspy="cls: uk-animation-slide-top; repeat: true">
         <span class="uk-button-link ">Д О Г О В О Р А</span>
         <div class="two uk-button-link" uk-icon="icon: plus; ratio: 3"></div>
     </div>
@@ -101,7 +101,7 @@
 <span>new varian buttons</span>
 
 <div class="uk-container uk-text-center">
-        <div class="uk-button-group">
+        <div class="uk-button-group" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
                 <button class="uk-button uk-button-default">З А Я В К И</button> <div uk-dropdown="mode: click; boundary: ! .uk-button-group; boundary-align: true;" >
                         <ul class="uk-nav uk-dropdown-nav">
                                 <li>
@@ -130,7 +130,7 @@
                 </div>
             </div>
 
-            <div class="uk-button-group">
+            <div class="uk-button-group" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
                     <button class="uk-button uk-button-default">Д О Г О В О Р А</button>
                     <div uk-dropdown="mode: click; boundary: ! .uk-button-group; boundary-align: true;">
                             <ul class="uk-nav uk-dropdown-nav">
@@ -284,8 +284,11 @@
         <div class="uk-container uk-position-bottom-center">
             <p uk-margin>
                 <!-- <button class="uk-button uk-button-default uk-button-large">Large button</button> -->
-                <button class="uk-button uk-button-primary uk-button-large" onclick="window.location.href='index2.html'" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">Створити Заявку</button>
-                <button class="uk-button uk-button-secondary uk-button-large">Архів заявок</button>
+                <button class="uk-button uk-button-primary uk-button-large" 
+                onclick="window.location.href='index2.html'" 
+                uk-scrollspy="cls: uk-animation-slide-left; repeat: true">Створити Заявку</button>
+                <button class="uk-button uk-button-secondary uk-button-large"
+                uk-scrollspy="cls: uk-animation-slide-right; repeat: true">Архів заявок</button>
             </p>
         </div>
     </div>
