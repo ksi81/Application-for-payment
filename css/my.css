@@ -1,0 +1,46 @@
+
+.dataTables_filter label  {
+    background: pink;
+    padding: 8px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.dataTables_length label{
+    background: pink;
+    /* padding: 8px; */
+    color: #ffffff;
+    text-transform: uppercase;
+}
+/* 
+ .dataTables_filter label input {
+     margin-left: 10px;  } */
+/* .dataTables_wrapper .ui-toolbar {
+    padding: 20px;
+}  */
+ #personal.dataTable th {
+    color: pink;
+    font-weight: 700;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px #b7b7b7 solid;
+    margin: 0; */
+} 
+
+.dataTables_wrapper {
+    font-weight: normal;
+  
+    /* padding-bottom: 30px; */
+}
+
+.dataTables_wrapper .ui-toolbar {
+    padding: 8px;
+    background: pink;
+    padding-bottom: 38px;
+}
+
+.uk-offcanvas-bar {
+  
+    /* background: pink; */
+   
+    color: aqua;
+}
