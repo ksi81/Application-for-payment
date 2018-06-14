@@ -90,7 +90,10 @@
         /* border-radius: 5px; */
     border-left: 2px solid black;
     width: 42px;
-    background-color: chartreuse;
+    background-color:#32d296;
+}
+.apl-btn-name{
+    font-size: 25px;
 }
 
 .btn-plus-span {
