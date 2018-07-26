@@ -2,124 +2,165 @@
 <html>
 
 <head>
-    <title>Title</title>
+    <title>ЗАЯВА НА ПРИДБАННЯ</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/uikit.min.css" />
+    <link rel="stylesheet" href="css/page2.css" />
     <script src="js/uikit.min.js"></script>
     <script src="js/uikit-icons.min.js"></script>
 </head>
 
 <body>
-        <div class="uk-margin">
-    <div class="uk-section uk-section-primary">
-        <div class="uk-container uk-container-small">
-            <h1>ЗАЯВА  НА  ПРИДБАННЯ</h1>
-            <form>
-                <div class="uk-margin">
-                    <div class="uk-inline">
-                        <span class="uk-form-icon" uk-icon="icon: user"></span>
-                        <input class="uk-input" type="text" placeholder="П.І.Б. працівника ">
+    <div class="uk-margin">
+        <div class="uk-section my-uk-section-primary">
+            <div class="uk-container uk-container-small">
+                <h1>ЗАЯВА НА ПРИДБАННЯ</h1>
+                <form>
+                    <div class="uk-grid-collapse uk-child-width-expand@s uk-text-center" uk-grid>
+                        <div>
+                            <div class="uk-inline">
+                                <span class="uk-form-icon" uk-icon="icon: user"></span>
+                                <input class="uk-input" type="text" placeholder="П.І.Б. працівника">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="uk-inline">
+                                <span class="uk-form-icon" uk-icon="icon: user"></span>
+                                <input class="uk-input" type="text" placeholder="ПІДРОЗДІЛ">
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="uk-margin">
-                    <div class="uk-inline">
-                        <span class="uk-form-icon" uk-icon="icon: user"></span>
-                        <input class="uk-input" type="text" placeholder="ПІДРОЗДІЛ">
+
+
+                    <div class="uk-margin">
+                        <div uk-form-custom="target: > * > span:first-child">
+                            <select>
+                                <option value="">бюджетную статью</option>
+                                <option value="1">Option 01</option>
+                                <option value="2">Option 02</option>
+                                <option value="3">Option 03</option>
+                                <option value="4">Option 04</option>
+                            </select>
+                            <button class="uk-button uk-button-default" type="button" tabindex="-1">
+                                <span></span>
+                                <span uk-icon="icon: chevron-down"></span>
+                            </button>
+                        </div>
                     </div>
-                </div>
-<div class="uk-margin">
-        <div uk-form-custom="target: > * > span:first-child">
-            <select>
-                <option value="">Please select...</option>
-                <option value="1">Option 01</option>
-                <option value="2">Option 02</option>
-                <option value="3">Option 03</option>
-                <option value="4">Option 04</option>
-            </select>
-            <button class="uk-button uk-button-default" type="button" tabindex="-1">
-                <span></span>
-                <span uk-icon="icon: chevron-down"></span>
-            </button>
+
+                    <div class="uk-grid-collapse uk-child-width-expand@s uk-text-left" uk-grid>
+                        <div class="uk-margin">
+                            <div uk-form-custom="target: > * > span:first-child">
+                                <select>
+                                    <option value="">контрагент/поставщик</option>
+                                    <option value="1">Option 01</option>
+                                    <option value="2">Option 02</option>
+                                    <option value="3">Option 03</option>
+                                    <option value="4">Option 04</option>
+                                </select>
+                                <button class="uk-button uk-button-default" type="button" tabindex="-1">
+                                    <span></span>
+                                    <span uk-icon="icon: chevron-down"></span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div uk-form-custom="target: > * > span:first-child">
+                            <select>
+                                <option value=""> договор/приложение</option>
+                                <option value="1">Option 01</option>
+                                <option value="2">Option 02</option>
+                                <option value="3">Option 03</option>
+                                <option value="4">Option 04</option>
+                            </select>
+                            <button class="uk-button uk-button-default" type="button" tabindex="-1">
+                                <span></span>
+                                <span uk-icon="icon: chevron-down"></span>
+                            </button>
+                        </div>
+                        <div uk-form-custom="target: > * > span:first-child">
+                            <select>
+                                <option value=""> доп соглашение</option>
+                                <option value="1">Option 01</option>
+                                <option value="2">Option 02</option>
+                                <option value="3">Option 03</option>
+                                <option value="4">Option 04</option>
+                            </select>
+                            <button class="uk-button uk-button-default" type="button" tabindex="-1">
+                                <span></span>
+                                <span uk-icon="icon: chevron-down"></span>
+                            </button>
+                        </div>
+                    </div>
+
+                </form>
+                <form>
+                    <fieldset class="uk-fieldset">
+                        <legend class="uk-legend">МЕТА</legend>
+                        <div class="uk-margin">
+
+
+                            <head>
+                                <title></title>
+                            </head>
+
+                            <body>
+
+                            </body>
+
+
+                            <textarea class="uk-textarea" rows="3" placeholder="Textarea"></textarea>
+                        </div>
+                        <div class="uk-margin">
+                            <input class="uk-input" type="number" placeholder="Сума">
+                        </div>
+                      
+                        <div class="uk-margin uk-grid-small uk-child-width-auto uk-grid">
+                            <label>
+                                <input class="uk-radio" type="radio" name="radio2" checked> Предоплата</label>
+                            <label>
+                                <input class="uk-radio" type="radio" name="radio2"> Постоплата</label>
+                        </div>
+                        <div class="uk-width-1-4@s">
+                            <input class="uk-input" type="text" placeholder="25%">
+                            <input class="uk-range" type="range" value="2" min="0" max="10" step="0.1">
+                        </div>
+                        <div class="uk-margin uk-grid-small uk-child-width-auto uk-grid">
+                            <label>
+                                <input class="uk-checkbox" type="checkbox" checked> Наличие договора</label>
+                            <label>
+                                <input class="uk-checkbox" type="checkbox" checked> наличие приложения</label>
+                            <!-- <label><input class="uk-checkbox" type="checkbox"> B</label> -->
+                        </div>
+                    </fieldset>
+                </form>
+                <hr>
+                <form>
+                    <div class="uk-margin">
+                        <div uk-form-custom>
+                            <input type="file">
+                            <button class="uk-button uk-button-default" type="button" tabindex="-1">Прикрепить счет</button>
+                        </div>
+                    </div>
+                    <div class="uk-margin">
+                        <span class="uk-text-middle">Here is a text</span>
+                        <div uk-form-custom>
+                            <input type="file">
+                            <span class="uk-link">upload</span>
+                        </div>
+                    </div>
+                    <div class="uk-margin" uk-margin>
+                        <div uk-form-custom="target: true">
+                            <input type="file">
+                            <input class="uk-input uk-form-width-medium" type="text" placeholder="Select file" disabled>
+                        </div>
+                        <button class="uk-button uk-button-default">Submit</button>
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
-                
-                <div class="uk-margin">
-                    <div class="uk-inline">
-                        <span class="uk-form-icon uk-form-icon-flip" uk-icon="
-                        icon: lock"></span>
-                        <input class="uk-input" type="text">
-                    </div>
-                </div>
-            </form>
-            <form>
-                <fieldset class="uk-fieldset">
-                    <legend class="uk-legend">МЕТА</legend>
-                    <div class="uk-margin">
-  <!DOCTYPE html>
-                        <html>
-                        <head>
-                            <title></title>
-                        </head>
-                        <body>
-                        
-                        </body>
-                        </html>                      <textarea class="uk-textarea" rows="5" placeholder="Textarea"></textarea>
-                    </div>
-                    <div class="uk-margin">
-                        <input class="uk-input" type="text" placeholder="Input">
-                    </div>
-                    <div class="uk-margin">
-                        <select class="uk-select">
-                            <option>Option 01</option>
-                            <option>Option 02</option>
-                        </select>
-                    </div>
-                    <div class="uk-margin uk-grid-small uk-child-width-auto uk-grid">
-                        <label>
-                            <input class="uk-radio" type="radio" name="radio2" checked> Предоплата</label>
-                        <label>
-                            <input class="uk-radio" type="radio" name="radio2"> Постоплата</label>
-                    </div>
-                    <div class="uk-width-1-4@s">
-                        <input class="uk-input" type="text" placeholder="25%">
-                        <input class="uk-range" type="range" value="2" min="0" max="10" step="0.1">
-                    </div>
-                    <div class="uk-margin uk-grid-small uk-child-width-auto uk-grid">
-                        <label>
-                            <input class="uk-checkbox" type="checkbox" checked> Наличие договора</label>
-                        <label>
-                            <input class="uk-checkbox" type="checkbox" checked> наличие приложения</label>
-                        <!-- <label><input class="uk-checkbox" type="checkbox"> B</label> -->
-                    </div>
-                </fieldset>
-            </form>
-            <hr>
-            <form>
-                <div class="uk-margin">
-                    <div uk-form-custom>
-                        <input type="file">
-                        <button class="uk-button uk-button-default" type="button" tabindex="-1">Select</button>
-                    </div>
-                </div>
-                <div class="uk-margin">
-                    <span class="uk-text-middle">Here is a text</span>
-                    <div uk-form-custom>
-                        <input type="file">
-                        <span class="uk-link">upload</span>
-                    </div>
-                </div>
-                <div class="uk-margin" uk-margin>
-                    <div uk-form-custom="target: true">
-                        <input type="file">
-                        <input class="uk-input uk-form-width-medium" type="text" placeholder="Select file" disabled>
-                    </div>
-                    <button class="uk-button uk-button-default">Submit</button>
-                </div>
-            </form>
-        </div>
-    </div>
-</div>
 </body>
 
 </html>

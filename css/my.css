@@ -84,15 +84,17 @@
     text-decoration: none;
     background-color: pink;
     color: #ffffff;
+    
 }
 
 .btn-plus {
-        /* border-radius: 5px; */
+    /* border-radius: 5px; */
     border-left: 2px solid black;
     width: 42px;
-    background-color:#32d296;
+    background-color: #32d296;
 }
-.apl-btn-name{
+
+.apl-btn-name {
     font-size: 25px;
 }
 
@@ -103,6 +105,7 @@
 }
 
 .btn-plus:focus,
-    {
+.apl-btn-name {
     border-color: black;
+    
 }
