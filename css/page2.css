@@ -1,3 +1,7 @@
 .my-uk-section-primary{
     background-color: #94a5b5;
 }
+
+.uk-input-number{
+    width: 150px;
+}

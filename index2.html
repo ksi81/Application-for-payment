@@ -112,10 +112,15 @@
 
                             <textarea class="uk-textarea" rows="3" placeholder="Textarea"></textarea>
                         </div>
-                        <div class="uk-margin">
-                            <input class="uk-input" type="number" placeholder="Сума">
+                        <div class="uk-margin uk-column-1-3@m">
+                            <legend class="uk-legend">ДАТА</legend>
+                            <input class="uk-input" type="date" placeholder="22.01.2018">
+                            <legend class="uk-legend">№ рахунка</legend>
+                            <input class="uk-input" type="text" placeholder="#544565-dv5/445">
+                            <legend class="uk-legend">СУМА</legend>
+                            <input class="uk-input uk-input-number" type="number" placeholder="2 000 грн">
                         </div>
-                      
+
                         <div class="uk-margin uk-grid-small uk-child-width-auto uk-grid">
                             <label>
                                 <input class="uk-radio" type="radio" name="radio2" checked> Предоплата</label>
@@ -128,9 +133,9 @@
                         </div>
                         <div class="uk-margin uk-grid-small uk-child-width-auto uk-grid">
                             <label>
-                                <input class="uk-checkbox" type="checkbox" checked> Наличие договора</label>
+                                <input class="uk-checkbox" type="checkbox" checked>Наявність договору</label>
                             <label>
-                                <input class="uk-checkbox" type="checkbox" checked> наличие приложения</label>
+                                <input class="uk-checkbox" type="checkbox" checked>Наявність додатку</label>
                             <!-- <label><input class="uk-checkbox" type="checkbox"> B</label> -->
                         </div>
                     </fieldset>
@@ -140,23 +145,47 @@
                     <div class="uk-margin">
                         <div uk-form-custom>
                             <input type="file">
-                            <button class="uk-button uk-button-default" type="button" tabindex="-1">Прикрепить счет</button>
+                            <button class="uk-button uk-button-default" type="button" tabindex="-1">Додати рахунок</button>
                         </div>
                     </div>
                     <div class="uk-margin">
-                        <span class="uk-text-middle">Here is a text</span>
+                        <span class="uk-text-middle">Додані матеріали:</span>
                         <div uk-form-custom>
                             <input type="file">
-                            <span class="uk-link">upload</span>
+                            <span class="uk-link">лінк</span>
                         </div>
                     </div>
-                    <div class="uk-margin" uk-margin>
+                    <!-- <div class="uk-margin" uk-margin>
                         <div uk-form-custom="target: true">
                             <input type="file">
                             <input class="uk-input uk-form-width-medium" type="text" placeholder="Select file" disabled>
                         </div>
                         <button class="uk-button uk-button-default">Submit</button>
+                    </div> -->
+
+                    <div class="uk-margin">
+                        <legend class="uk-legend">Номер №CЕА</legend>
+                        <input class="uk-input " type="text" placeholder="#--#--#">
                     </div>
+                    <div class="uk-grid-collapse" >
+                            <div>
+                                <div class="uk-inline">
+                                    <span class="uk-form-icon" uk-icon="icon: user"></span>
+                                    <input class="uk-input" type="text" placeholder="Менеджер">
+                                </div>
+                            </div>
+                            <div>
+                                <div class="uk-inline">
+                                    <span class="uk-form-icon" uk-icon="icon: user"></span>
+                                    <input class="uk-input" type="text" placeholder="Директор">
+                                </div>
+                            </div>
+                        </div>
+
+                    <p uk-margin>
+                        <button class="uk-button uk-button-default uk-button-large">Зберегти та подати на опрацювання</button>
+
+                    </p>
                 </form>
             </div>
         </div>
